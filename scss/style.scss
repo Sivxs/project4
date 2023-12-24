@@ -1,0 +1,234 @@
+/* Шапка */
+header {
+    display: flex;
+    width: 100%;
+    height: 40%;
+    justify-content: space-evenly;
+  }
+  
+  .headlogo {
+    width: 140px;
+    height: 58px;
+  }
+  
+  .header_menu {
+    font-size: 23px;
+    font-family: "Nunito", sans-serif;
+  }
+  
+  .based {
+    color: rgb(112, 184, 6);
+    font-size: 23px;
+    font-family: "Nunito", sans-serif;
+  }
+
+  
+  /* Ссылки */
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    color: rgb(112, 184, 6);
+  }
+  
+  /* Середина сайта */
+  .back_logo {
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: white;
+    font-family: "Nunito", sans-serif;
+  }
+  
+  .secondcentered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    color: white;
+    font-family: "Nunito", sans-serif;
+  }
+  
+  .place {
+    background-color: rgb(94, 124, 92);
+    padding: 1%;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-size: 35px;
+    margin-top: 0;
+  }
+  
+  .basicpage {
+    display: flex;
+    margin-bottom: 10%;
+  }
+  
+  .page1 {
+    flex-direction: column;
+    margin-left: 46px;
+    font-family: "Nunito", sans-serif;
+    font-size: 32px;
+  }
+  .zag1 {
+    font-size: 50px;
+  }
+  
+  section {
+    margin-left: 700px;
+  }
+  
+  .news1 {
+    font-family: "Nunito", sans-serif;
+    margin-left: 300px;
+    font-size: 50px;
+  }
+  
+  .basic_news {
+    font-size: 50px;
+  }
+  
+  .news_title {
+    font-size: 32px;
+  }
+  
+  /* Подвал */
+  footer {
+    background-color: rgb(94, 124, 92);
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  .footer_content {
+    display: flex;
+    font-family: "Nunito", sans-serif;
+  }
+  
+  .footer_logo {
+    width: 240px;
+    height: 110px;
+    margin-left: 1200px;
+    margin-top: 100px;
+  }
+  
+  .footer_first {
+    font-size: 32px;
+  }
+  
+  .footer_menu {
+    font-size: 27px;
+  }
+  
+  .prava {
+    color: rgb(135, 140, 145);
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  @media screen and (max-width: 1600px) {
+    .place {
+      width: 1624px;
+    }
+    .centered {
+      font-size: 22px;
+    }
+    .secondcentered {
+      top: 38%;
+      font-size: 65px;
+    }
+    .footer_logo {
+      margin-left: 900px;
+    }
+  }
+
+  @media  screen and (max-width: 1200px) {
+    
+    .place {
+      width: 1176px;
+    }
+    .centered {
+      top: 20%;
+      font-size: 16px;
+    }
+    .secondcentered {
+      top: 28%;
+      font-size: 60px;
+    }
+    .zag1 {
+      font-size: 47px;
+    }
+    .page1 {
+      font-size: 25px;
+    }
+    .news1 {
+      margin-left: 180px;
+      font-size: 40px;
+    }
+    .basic_news {
+      font-size: 47px;
+    }
+    .news_title {
+      font-size: 25px;
+    }
+    .footer_logo {
+      margin-left: 600px;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    header {
+      display: block;
+    }
+    .headlogo {
+      margin-left: 30px;
+    }
+    .place {
+      width: 490px;
+      font-size: 28px;
+    }
+    .secondcentered {
+      top: 44%;
+      font-size: 30px;
+    }
+    .centered {
+      top: 41%;
+      font-size: 12px;
+      width: 100%;
+      margin-left: 40px;
+    }
+    .basicpage {
+      display: block;
+    }
+    .news1 {
+      margin-left: 40px;
+    }
+    .footer_logo {
+      margin-left: 0px;
+    }
+  }
